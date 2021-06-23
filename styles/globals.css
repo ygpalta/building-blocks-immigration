@@ -1,9 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/SEGA.woff');
+  }
+ 
+  @font-face {
+    font-family: 'Aquire Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/AquireLight-YzE0o.otf');
+    }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-origin: content-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 a {
@@ -14,3 +39,72 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.logo {
+  font-family: 'Aquire Light';
+  align-items: center;
+  /* font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-size: lagre; */
+}
+/* ,'Syncopate', sans-serif */
+
+.theme {
+  padding: 7px 7px;
+  /* background-color: rgb(11,63,88); */
+  background-image: linear-gradient(to right, rgb(119,2,2), rgb(234,29,36));
+  text-shadow: 1em;
+  box-shadow: 3px 3px 3px rgba(119, 2, 2, 0.486) inset;
+}
+.hero-image {
+  margin-top: 1em;
+  background-image: url("/images/canada.jpeg");
+  height: 400px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.Overlay {
+  width: 100vw;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.158));
+}
+
+.hero-text {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  padding: 6rem;
+  /* margin-top: 2rem;
+  margin-bottom: 2rem; */
+  background-image: linear-gradient(to right, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5));
+  font-family: 'Benne', 'sans-serif';
+  text-align: center;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.zoom {
+  transition: transform .3s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/* Red: rgb(234,29,36)  */
+/* Dark Grey: rgb(38,38,38)  */
+/* Logo Background: rgb(11,63,88)
+Light red : rgb(234,29,36)
+Dark Red: rgb(119,2,2)  */
