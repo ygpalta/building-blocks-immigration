@@ -1,9 +1,14 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import  Navbar from '../components/Navbar.tsx';
 import  Footer from '../components/Footer.tsx';
 import  PostCard from '../components/PostCard.js';
+
+const myLoader = () => {
+  return `https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80`
+}
 
 export default function Home() {
  return (
@@ -107,22 +112,23 @@ const Paths = () => <section className="pb-20 bg-gray-300 -mt-24">
            We Know, leaving your home and settling at a new place is not an easy task. 
           </p>
         <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-        Don't let any frauds come in your way to Canada. Plan your Journey with step-by-step guidance from the best and registered consultants at Building Blocks.
+        Don`&apos;`t let any frauds come in your way to Canada. Plan your Journey with step-by-step guidance from the best and registered consultants at Building Blocks.
           </p>
-        <a
-          href="/book-appointment"
-          className="font-bold text-gray-800 mt-8"
-        >
+          <Link href="/book-appointment"
+          className="font-bold text-gray-800 mt-8">
+        <a>
           Book an Appointment Now!
           </a>
+          </Link>
       </div>
 
       <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
         <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-red-700">
-          <img
+          <Image
             alt="..."
-            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
-            className="w-full align-middle rounded-t-lg"
+            src="/images/pic.jpg"
+            className="w-full align-middle rounded-t-lg object-cover"
+            width="auto" height="auto" layout="responsive" 
           />
           <blockquote className="relative p-8 mb-4">
             <svg
