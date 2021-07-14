@@ -5,7 +5,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css';
 
 
-export default function PostCard (){
+export default function PostCard ({title, about, date, id}){
 return (
     <div className="w-full md:w-4/12 lg:w-3/12 px-5">
         <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-red-700">
@@ -31,12 +31,12 @@ return (
               ></polygon>
             </svg>
             <h4 className="text-xl font-bold text-white">
-              Visa Type
+              {title}
               </h4>
             <p className="text-md font-light mt-2 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. 
+            {about}
               </p>
-              <b> Read More.. </b>
+              <b className="text-white"><a href={`/visas/${id}`} >Know More.. </a> </b>
           </blockquote>
         </div>
       </div>
