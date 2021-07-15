@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-import Link from 'next/link'
+
 
 function Footer(): ReactElement {
     return (
@@ -26,24 +26,36 @@ function Footer(): ReactElement {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold text-white ">
+              
+              <h4 className="text-3xl font-semibold text-white mt-2 ">
                 Let&apos;s keep in touch!
               </h4>
-              <h5 className="text-lg mt-0 text-white">
-                Address Line 1
-              </h5>
-              <h5 className="text-lg mt-0 text-white">
-                Address Line 2
-              </h5>
-              <h5 className="text-lg mt-0 mb-1 text-white">
-                Address Line 3
-              </h5>
-              <h5 className="text-lg mt-0 text-white">
-                info@buildingblocksimmigration.com
-              </h5>
-              <h5 className="text-lg mt-0 text-white">
-                +1 987654321
-              </h5>
+              <div className="text-white px-4 py-2">
+                <h5 className="fas fa-map-marker-alt text-lg mt-0 text-white">
+                &nbsp;&nbsp;405 The West Mall
+                </h5>
+                <h5 className="text-lg mt-0 font-semibold">
+                &emsp;&nbsp;Unit 910
+                </h5>
+                <h5 className="text-lg mt-0 font-semibold">
+                &emsp;&nbsp;Etobicoke
+                </h5>  
+                <h5 className="text-lg mt-0 font-semibold">
+                &emsp;&nbsp;Toronto, ON
+                </h5>
+                <h5 className="text-lg mt-0 mb-1 font-semibold">
+                &emsp;&nbsp;Canada
+                </h5>
+
+                <h5 className="fas fa-envelope text-lg mt-0">
+                &nbsp;&nbsp;buildingblocksimmigration@gmail.com
+                </h5><br/>
+
+                <h5 className="fas fa-phone text-lg mt-0">
+                &nbsp;&nbsp;+1 4166199215
+                </h5>
+              </div>
+
               <div className="mt-6">
                 <button
                   className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -71,7 +83,7 @@ function Footer(): ReactElement {
                 </button>
               </div>
             </div>
-            <div className="w-full lg:w-6/12 px-4">
+            <div className="w-full lg:w-6/12 px-4 mt-4">
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
                   <span className="block uppercase text-white text-sm font-semibold mb-2">
@@ -79,39 +91,29 @@ function Footer(): ReactElement {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <Link href="/about">
-                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        >About Us
-                        </a>
-                      </Link>
+                      <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="/about">About Us
+                      </a>
                     </li>
                     <li>
-                      <Link href="/blog" >
-                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        >Blog
-                        </a>
-                      </Link>
+                      <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="/blog">Blog
+                      </a>
                     </li>
                     <li>
-                      <Link href="/assesment">
-                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        >Free Assesment
-                        </a>
-                      </Link>
+                      <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="/assesment">Free Assesment
+                      </a>
                     </li>
                     <li>
-                      <Link href="/book-consultation" >
-                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        >Book A Consultation
-                        </a>
-                      </Link>
+                      <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="/book-consultation">Book A Consultation
+                      </a>
                     </li>
                     <li>
-                      <Link href="/contact" >
-                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        >Contact Us
-                        </a>
-                      </Link>
+                      <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="/contact">Contact Us
+                      </a>
                     </li>
 
                   </ul>
@@ -122,39 +124,29 @@ function Footer(): ReactElement {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <Link href="/migrate-canada">
-                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        >Migrate
+                      <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="/migrate-canada">Migrate
+                    </a>
+                    </li>
+                    <li>
+                      <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="/study-in-canada">Study
                       </a>
-                    </Link>
                     </li>
                     <li>
-                      <Link href="/study-in-canada" >
-                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        >Study
-                        </a>
-                      </Link>
+                      <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="/work-in-canada">Work
+                      </a>
                     </li>
                     <li>
-                      <Link href="/work-in-canada" >
-                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        >Work
-                        </a>
-                      </Link>
+                      <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="/business-in canada">Business
+                      </a>
                     </li>
                     <li>
-                      <Link href="/business-in canada" >
-                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        >Business
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/visit-canada" >
-                        <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        >Visit
-                        </a>
-                      </Link>
+                      <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                        href="/visit-canada">Visit
+                      </a>
                     </li>
                   </ul>
 
@@ -167,11 +159,12 @@ function Footer(): ReactElement {
             <div className="w-full md:w-8/12 px-4 mx-auto text-center">
               <div className="text-sm text-white font-semibold py-1">
                 Copyright © {new Date().getFullYear()}{" "}Building Blocks Immigration- All Rights Reserved || Site Developed by{" "}
-                <Link href="https://www.linkedin.com/in/ygpalta/" >
-                  <a className="text-white hover:text-gray-900">
+                <a
+                  href="https://www.linkedin.com/in/ygpalta/"
+                  className="text-white hover:text-gray-900"
+                >
                   Y.G. Palta
-                  </a>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
