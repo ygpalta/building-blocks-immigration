@@ -1,8 +1,5 @@
-import React, { ReactElement, useState } from 'react';
+import React, { useState } from 'react';
 
-interface Props {
-  transparent?:boolean
-}
 
 export default function Navbar () {
     const [active, setActive] = useState(false);
