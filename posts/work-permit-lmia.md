@@ -1,8 +1,7 @@
 ---
-title: ''
+title: 'Work Permit and LMIA'
 date: '2020-01-05'
-about: 'Visitor visa, or the Temporary Resident Visa (TRV), is an immigration documents that allows foreign
-nationals to enter Canada.'
+about: 'Work in Canada'
 ---
 
 Every year thousands of people come to Canada to work. Usually, a work permit is required to work in Canada but in some cases, you can work without a work permit.
