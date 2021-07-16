@@ -28,7 +28,7 @@ export default function Page({ postData }) {
         <title>{postData.title}</title>
         </Head>
             <Navbar transparent={false} />
-            <div className="flex flex-row justify-left items-center pt-24 pb-16 bg-gray-100">
+            <div className="flex flex-row justify-center items-center pt-24 pb-16 bg-gray-100">
             <div className="w-3/4 px-4 text-center item-center align-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                     <div className="px-10 py-8 flex-auto">
