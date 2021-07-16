@@ -3,8 +3,19 @@ import styles from '../styles/Home.module.css'
 import  Navbar from '../components/Navbar.tsx';
 import  Footer from '../components/Footer.tsx';
 import  PostCard from '../components/PostCard.js';
+import  Visalist from '../components/visalist';
+import { getSortedPostsData } from '../lib/posts';
 
-export default function Home() {
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return {
+    props: {
+      allPostsData,
+    },
+  }
+}
+
+export default function Home({ allPostsData }) {
  return (
    <div>
       <Navbar transparent={false} />
@@ -36,7 +47,23 @@ export default function Home() {
             </svg>
          </div>
          <Paths />
-         <Posts />
+         {/* <Posts /> */}
+         <Visalist visas={allPostsData}/>
+         {/* <section className="px1" >
+        <h2 className="text-xl">Blog</h2>
+        <ul className="text-lg">
+          {allPostsData.map(({ id, date, title }) => (
+            <li key={id}>
+              {title}
+              <br />
+              {id}
+              <br />
+              {date}
+            </li>
+          ))}
+          a{allPostsData}a
+        </ul>
+      </section> */}
          <Footer />
    </div>
 
@@ -175,12 +202,10 @@ const Posts = () => <section className="relative py-20">
       </div>
       <div className="flex flex-row flex-wrap flex-initial">
          <PostCard />
-         <PostCard />
-         <PostCard />
-         <PostCard />
-         <PostCard />
-         <PostCard />
+         
+         
       </div>
 
            
 </section>
+
