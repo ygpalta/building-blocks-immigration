@@ -38,9 +38,6 @@ function Footer(): ReactElement {
                 &emsp;&nbsp;Unit 910
                 </h5>
                 <h5 className="text-lg mt-0 font-semibold">
-                &emsp;&nbsp;Etobicoke
-                </h5>  
-                <h5 className="text-lg mt-0 font-semibold">
                 &emsp;&nbsp;Toronto, ON
                 </h5>
                 <h5 className="text-lg mt-0 mb-1 font-semibold">
@@ -102,7 +99,7 @@ function Footer(): ReactElement {
                     </li>
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/assesment">Free Assesment
+                        href="/assessment">Free Assessment
                       </a>
                     </li>
                     <li>
