@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import Image from 'next/Image'
 import React, { ReactElement, useState } from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css';
