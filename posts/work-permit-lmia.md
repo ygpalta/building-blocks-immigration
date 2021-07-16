@@ -20,14 +20,17 @@ Work permit exemptions:
 <li> Business visitors</li>
 <li> Military personnel</li>
 <li> News reporters, film, and media crews for foreign in news company</li>
+</ul>
 
 Some work permits are exempt from Labour Market Impact Assessment (LMIA)
 LMIA exemptions for Work Permit:
+<ul style="list-style-type: disc; list-style-position: inside;">
 <li> Intracompany transferees</li>
 <li> International Experience Canada (IEC) applicants (Working holiday permit holders)</li>
 <li> Applicants covered under International Free Trade Agreements (NAFTA, CETA, GATS)</li>
 <li> PGWP holders</li>
 <li> Applicants in private academic exchanges such as postdoctoral fellows and visiting professors</li>
+</ul>
 
 Like a foreign national needing a work permit to work in Canada, in most cases Canadian employers need to apply for a Labour Market Impact Assessment (LMIA) from the Government of Canada to allow them to hire foreign workers. An LMIA confirms that the foreign national will help fill the shortage in the Canadian Labour Market which could not be filled by a Canadian citizen or permanent resident.
 <br/>
