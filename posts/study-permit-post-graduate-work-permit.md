@@ -14,7 +14,7 @@ International students are an important part of Canadian immigration program. In
 
 After completion of studies, you may be able to apply for Post Graduate Work Permit (PGWP) and then apply for Permanent Residence under Canadian Experience Class (CEC). To be eligible for PGWP the student must have graduated from a Designated Canadian Post-secondary institution (ESL/Preparatory programs are not eligible). PGWP is generally issued for the same length of study program if the program was more than eight months, but under two years. If the length of study program was more than two years, the PGWP may be issued for three years.
 
-<strong> Requirements for Study permit:<strong>
+<strong> Requirements for Study permit:</strong>
 
 Regular Stream:
 <ul style="list-style-type: disc; list-style-position: inside;">
