@@ -31,21 +31,21 @@ export default function Contact () {
                             <h6 className="text-2xl item-start m-3 font-semibold item-end">
                             Book 15-Min Consultation (Free)
                             </h6>
-                            <button className="red text-white border text-xl font-semibold p-2 rounded">Book Now</button>
+                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded">Book Now</button>
                         </div>
 
                         <div className="relative flex justify-around content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
                             <h6 className="text-2xl item-start m-3 font-semibold item-end">
                             Book 1 hour Consultation ($150)
                             </h6>
-                            <button className="red text-white border text-xl font-semibold p-2 rounded">Book Now</button>
+                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded">Book Now</button>
                         </div>
 
                         <div className="relative flex justify-around content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
                             <h6 className="text-2xl item-start m-3 font-semibold item-end">
                             Immigration Assesment Forms
                             </h6>
-                            <button className="red text-white border text-xl font-semibold p-2 rounded"><a href="https://casecloud.ca/login/assessmentembed?siteID=CCP20211497">Book Now</a></button>
+                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded"><a href="https://casecloud.ca/login/assessmentembed?siteID=CCP20211497">Book Now</a></button>
                         </div>   
                     </div>
                     </div>
