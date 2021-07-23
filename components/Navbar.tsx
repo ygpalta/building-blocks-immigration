@@ -9,14 +9,14 @@ export default function Navbar () {
     };
     return (
       <div>
-          <nav className='static m-0.5 flex items-center flex-wrap theme rounded-lg p shadow-lg '>
+          <nav className='static flex items-center flex-wrap theme p shadow-lg '>
 
           <a href='/' className='inline-flex items-center p mr-4 '>
           <img 
               src="/logo.png" 
               width="64" height="64" 
               alt="Logo" />
-            <span className='flex logo px-2 text-xl md:text-3xl h-4 item-center align-center text-white font-bold uppercase tracking-wide'>
+            <span className='flex logo px-2 text-lg md:text-3xl h-4 item-center align-center text-white font-bold uppercase tracking-wide'>
             {/* <span className='logo text-xl tracking-wide'> */}
                Building Blocks IMMIGRATION
              </span>

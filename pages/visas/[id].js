@@ -29,7 +29,7 @@ export default function Page({ postData }) {
         </Head>
             <Navbar transparent={false} />
             <div className="flex flex-row justify-center items-center pt-24 pb-16 bg-gray-100">
-            <div className="w-3/4 px-4 text-center item-center align-center">
+            <div className="w-full px-8 text-center item-center align-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                     <div className="px-10 py-8 flex-auto">
                         <div className="text-white p-3 text-left inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
