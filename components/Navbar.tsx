@@ -59,26 +59,26 @@ export default function Navbar () {
 
 
 
-                <a href='/study-in-canada' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
+                <a href='/visas/study-permit-post-graduate-work-permit' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Study
                 </a>
 
 
 
 
-                <a href='/work-in-canada' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
+                <a href='/visas/work-permit-lmia' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Work
                 </a>
 
 
 
-                <a href='/visit-canada' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
+                <a href='/visas/visitor-visa' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Visit
                 </a>
 
 
 
-                <a href='/assessment' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
+                <a href='/https://casecloud.ca/form/formshare?formId=6c9bda54-6459-4e25-b321-26368a535c0f&siteId=CCP20211497' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Assessment
                 </a>
 

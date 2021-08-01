@@ -29,23 +29,23 @@ export default function Contact () {
                     <div className=" col-span-4 md:col-span-2 py-8 m-2 px-6 md:mt-24 flex flex-col flex-wrap justify-start">                    
                         <div className="relative flex justify-around content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
                             <h6 className="text-2xl item-start m-3 font-semibold item-end">
-                            Book 15-Min Consultation (Free)
+                            Book 30-Min Consultation (Free)
                             </h6>
-                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded">Book Now</button>
+                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded"><a href="https://probooking.io/meet/buildingblocks/30+Minutes+Discovery+Session"> Book Now</a></button>
                         </div>
 
                         <div className="relative flex justify-around content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
                             <h6 className="text-2xl item-start m-3 font-semibold item-end">
-                            Book 1 hour Consultation ($150)
+                            Book 1 hour Consultation ($50)
                             </h6>
-                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded">Book Now</button>
+                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded"><a href="https://probooking.io/meet/buildingblocks/60+Minutes+Deep+Dive"> Book Now</a></button>
                         </div>
 
                         <div className="relative flex justify-around content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
                             <h6 className="text-2xl item-start m-3 font-semibold item-end">
-                            Immigration Assesment Forms
+                            Fill Assesment Form
                             </h6>
-                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded"><a href="https://casecloud.ca/login/assessmentembed?siteID=CCP20211497">Book Now</a></button>
+                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded"><a href="https://casecloud.ca/form/formshare?formId=6c9bda54-6459-4e25-b321-26368a535c0f&siteId=CCP20211497">Access here</a></button>
                         </div>   
                     </div>
                     </div>

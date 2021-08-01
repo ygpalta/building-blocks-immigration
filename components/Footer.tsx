@@ -99,12 +99,12 @@ function Footer(): ReactElement {
                     </li>
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/assessment">Free Assessment
+                        href="https://casecloud.ca/form/formshare?formId=6c9bda54-6459-4e25-b321-26368a535c0f&siteId=CCP20211497">Free Assessment
                       </a>
                     </li>
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/book-consultation">Book A Consultation
+                        href="/contact">Book A Consultation
                       </a>
                     </li>
                     <li>
@@ -127,22 +127,22 @@ function Footer(): ReactElement {
                     </li>
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/study-in-canada">Study
+                        href="/visas/study-permit-post-graduate-work-permit">Study
                       </a>
                     </li>
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/work-in-canada">Work
+                        href="/visas/work-permit-lmia">Work
                       </a>
                     </li>
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/business-in canada">Business
+                        href="/visas/self-employed">Business
                       </a>
                     </li>
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/visit-canada">Visit
+                        href="/visas/visitor-visa">Visit
                       </a>
                     </li>
                   </ul>

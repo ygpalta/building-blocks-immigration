@@ -1,5 +1,5 @@
 ---
-title: 'Citienship'
+title: 'Citizenship'
 date: '2020-01-03'
 about: 'Become a Canadian Citizen'
 ---
