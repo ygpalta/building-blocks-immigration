@@ -8,9 +8,11 @@ nationals to enter Canada.'
 Thousands of people visit Canada every year to visit family and friends, or to divulge in Canada’s diverse culture and beautiful landscapes.
 **Visitor visa**, or the Temporary Resident Visa (TRV), is an immigration documents that allows foreign
 nationals to enter Canada. Most foreign nationals need a visitor visa to enter Canada.
-Requirements for Visitor Visa:
+<div style="margin:8px;"></div>
 
-<ul style="list-style-type: disc; list-style-position: inside;">
+**Requirements for Visitor Visa:**
+
+<ul style="list-style-type: disc; list-style-position: outside; margin-top:5px; margin-left:5px;">
  <li>Valid Travel document (Passport)</li>
 <li> Proof of sufficient funds for the stay </li>
 

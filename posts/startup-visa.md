@@ -11,8 +11,10 @@ permanent residents to entrepreneurs while assisting them to become established 
 program up to five applicants are allowed under one business if, each applicant holds at least 10% voting
 rights and jointly with the designated organization hold more than 50% of voting rights. If the primary
 applicant is rejected by IRCC, other applicants with will be rejected as well.
-Requirements:
-<ul style="list-style-type: disc; list-style-position: inside;">
+<div style="margin:8px;"></div>
+
+**Requirements:**
+<ul style="list-style-type: disc; list-style-position: outside; margin-top:5px; margin-left:5px;">
 <li> Letter of support by the designated Angel investor group or Venture capital fund or Business incubator.</li>
 <li> Angel investor group: Minimum financial commitment of $75,000</li>
 <li> Venture capital fund: Minimum financial commitment of $200,000</li>

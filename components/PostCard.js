@@ -9,7 +9,7 @@ return (
         <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-red-700">
           <img
             alt="..."
-            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+            src={`/images/${id}.jpg`}
             className="w-full align-middle rounded-t-lg"
           />
           <blockquote className="relative p-8 mb-4">
