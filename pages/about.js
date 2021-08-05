@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import  Navbar from '../components/Navbar.tsx';
 import  Footer from '../components/Footer.tsx';
 
