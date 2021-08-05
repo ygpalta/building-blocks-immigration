@@ -9,6 +9,9 @@ import  Footer from '../components/Footer.tsx';
 export default function Contact () {
     return (
         <div>
+            <Head>
+            <title>Countact Us - Building Blocks Immigration</title>
+            </Head>
             <Navbar transparent={false} />
             <div className="hero-contact">
                 <div className="hero-text">
