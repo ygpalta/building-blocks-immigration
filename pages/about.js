@@ -5,6 +5,9 @@ import  Footer from '../components/Footer.tsx';
 export default function Page () {
     return (
         <div>
+            <Head>
+            <title>About Us - Building Blocks Immigration</title>
+            </Head>
             <Navbar transparent={false} />
             <div className="hero-image">
                 <div className="hero-text">
