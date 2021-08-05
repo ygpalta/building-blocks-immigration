@@ -18,6 +18,9 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
  return (
    <div>
+      <Head>
+        <title>Building Blocks Immigration - Best Immigration Consultants for Canadian Visa & PR</title>
+      </Head>
       <Navbar transparent={false} />
          <div className="hero-image">
             <div className="hero-text">
