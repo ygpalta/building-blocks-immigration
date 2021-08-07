@@ -13,7 +13,7 @@ export default function Navbar () {
 
           <a href='/' className='inline-flex items-center p mr-4 '>
           <img 
-              src="/logo.png" 
+              src="/images/logo.png" 
               width="64" height="64" 
               className="rounded-full"
               alt="Logo" />
