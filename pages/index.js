@@ -26,7 +26,7 @@ export default function Home({ allPostsData }) {
             <div className="hero-text">
                <h1 className="text-2xl md:text-5xl">Immigrate to Canada</h1>
                <h3 className="text-xl" >With the Best Immigration Consultants</h3>
-               <button className="bg-black bg-opacity-40 hover:bg-black hover:bg-opacity-80 hover:text-white py-2 px-4 border border-gray-900 hover:border-transparent rounded">Explore options</button>
+               <button className="bg-black bg-opacity-40 hover:bg-black hover:bg-opacity-80 hover:text-white py-2 px-4 border border-gray-900 hover:border-transparent rounded">Explore Options</button>
             </div>
          </div>
 
@@ -100,7 +100,7 @@ const Paths = () => <section className="pb-20 bg-gray-300 -mt-24">
               Work in Canada
               </h6>
             <p className="mt-2 mb-4 text-gray-600">
-              Get a Work Permit to work in Canada
+              Get a Work Permit to Work in Canada
               </p>
           </div>
         </div>
@@ -136,7 +136,7 @@ const Paths = () => <section className="pb-20 bg-gray-300 -mt-24">
            We know, leaving your home and settling at a new place is not an easy task. 
           </p>
         <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-        Don&apos;t let any frauds come in your way to Canada. Plan your journey with step-by-step guidance from the best and registered consultants at Building Blocks Immigration.
+        Don&apos;t let any frauds come in your way to Canada. Plan your Journey with step-by-step guidance from the best and registered consultants at Building Blocks Immigration.
           </p>
         <a
           href="/contact"
