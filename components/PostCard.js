@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css';
 export default function PostCard ({title, about, date, id}){
 return (
     <div className="w-full md:w-4/12 lg:w-3/12 px-5">
-        <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-red-700">
+        <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg blue">
           <img
             alt="..."
             src={`/images/${id}.jpg`}
@@ -25,7 +25,7 @@ return (
             >
               <polygon
                 points="-30,95 583,95 583,65"
-                className="text-red-700 fill-current"
+                className="blue-text fill-current"
               ></polygon>
             </svg>
             <h4 className="text-xl font-bold text-white">
