@@ -15,6 +15,7 @@ export default function Navbar () {
           <img 
               src="/logo.png" 
               width="64" height="64" 
+              className="rounded-full"
               alt="Logo" />
             <span className='flex logo px-2 text-lg md:text-3xl h-4 item-center align-center text-white font-bold uppercase tracking-wide'>
             {/* <span className='logo text-xl tracking-wide'> */}
