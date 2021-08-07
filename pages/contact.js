@@ -10,7 +10,7 @@ export default function Contact () {
     return (
         <div>
             <Head>
-            <title>Countact Us - Building Blocks Immigration</title>
+            <title>Contact Us - Building Blocks Immigration</title>
             </Head>
             <Navbar transparent={false} />
             <div className="hero-contact">
