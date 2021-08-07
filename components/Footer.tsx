@@ -54,30 +54,22 @@ function Footer(): ReactElement {
               </div>
 
               <div className="mt-6">
-                <button
-                  className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i className="flex fab fa-twitter"></i>
-                </button>
+                
                 <button
                   className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
-                >
+                ><a href="https://www.facebook.com/buildingblocksimmigration/">
                   <i className="flex fab fa-facebook-square"></i>
+                 </a>
                 </button>
                 <button
                   className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
-                >
-                  <i className="flex fab fa-instagram"></i>
+                ><a href="https://www.instagram.com/building_blocks_immigration/">
+                    <i className="flex fab fa-instagram"></i>
+                  </a>
                 </button>
-                <button
-                  className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i className="flex fab fa-linkedin"></i>
-                </button>
+                
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4 mt-4">
