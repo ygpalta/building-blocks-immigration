@@ -17,7 +17,6 @@ export default function Contact () {
                 <div className="hero-text">
                 <h1 className="text-2xl md:text-5xl">Contact Us</h1>
                 <h3 className="text-xl" >Let's Plan your journey together</h3>
-                <button className="bg-black bg-opacity-40 hover:bg-black hover:bg-opacity-80 hover:text-white py-2 px-4 border border-gray-900 hover:border-transparent rounded">Start a Conversation</button>
                 </div>
             </div>
             
