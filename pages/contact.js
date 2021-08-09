@@ -29,21 +29,21 @@ export default function Contact () {
                     </div>
 
                     <div className=" col-span-4 md:col-span-2 py-8 m-2 px-6 md:mt-24 flex flex-col flex-wrap justify-start">                    
-                        <div className="relative flex justify-around content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
+                        <div className="relative flex justify-between content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
                             <h6 className="text-2xl item-start m-3 font-semibold item-end">
                             Book 30-Min Consultation (Free)
                             </h6>
                             <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded"><a href="https://probooking.io/meet/buildingblocks/30+Minutes+Discovery+Session"> Book Now</a></button>
                         </div>
 
-                        <div className="relative flex justify-around content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
+                        <div className="relative flex justify-between content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
                             <h6 className="text-2xl item-start m-3 font-semibold item-end">
                             Book 1 hour Consultation ($50)
                             </h6>
                             <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded"><a href="https://probooking.io/meet/buildingblocks/60+Minutes+Deep+Dive"> Book Now</a></button>
                         </div>
 
-                        <div className="relative flex justify-around content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
+                        <div className="relative flex justify-between content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">
                             <h6 className="text-2xl item-start m-3 font-semibold item-end">
                             Fill Assesment Form
                             </h6>

@@ -1,7 +1,8 @@
 ---
 title: 'Express Entry'
 date: '2020-01-03'
-about: 'Fastest pathway for skilled immigrants'
+about: 'Express Entry is a point-based system through which thousands of skilled immigrants come to
+Canada every year.'
 ---
 Express entry is the fastest simplest and most popular pathway to permanent residence in Canada. This
 new fast track system allows Citizenship and Immigration Canada (CIC) to select the skilled immigrants

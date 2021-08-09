@@ -1,7 +1,8 @@
 ---
 title: 'Self Employed Persons'
 date: '2020-01-01'
-about: 'Innovative Visa for Start-ups and Entrepreneurs'
+about: 'This program provides an avenue for self-employed people to immigrate to Canada
+permanently as a self-employed person.'
 ---
 
 The Self-Employed Persons program is for applicants who have the intention and ability to become self- employed in Canada. This program is applicable for self-employed people in NOC group 51(professional occupations in art and culture and NOC group 52(technical occupations in art, culture, recreation, and sports).

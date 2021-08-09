@@ -1,7 +1,8 @@
 ---
 title: 'Citizenship'
 date: '2020-01-03'
-about: 'Become a Canadian Citizen'
+about: 'The final step towards completing your journey is acquiring Canadian citizenship after meeting
+the eligibility criteria.'
 ---
 
 Most of the immigrants come to Canada with the dream of becoming Canadian citizens one day.

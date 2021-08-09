@@ -1,7 +1,8 @@
 ---
 title: 'Electronic Travel Authorization (eTA)'
 date: '2020-01-03'
-about: 'eTA is required for all visa-exempt foreign nationals who wish to transit through or fly to Canada.'
+about: 'An Electronic Travel Authorization (eTA) is an electronic authorisation to fly to or transit through
+a Canadian airport without a visa.'
 ---
 
 eTA is required for all visa-exempt foreign nationals who wish to transit through or fly to Canada. If they

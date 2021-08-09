@@ -1,7 +1,8 @@
 ---
 title: 'Caregiver Programs'
 date: '2020-01-03'
-about: 'eTA is required for all visa-exempt foreign nationals who wish to transit through or fly to Canada.'
+about: 'This program is for qualified caregivers to come to Canada as a Child Care Provider or a Home
+Support Worker.'
 ---
 
 The Home Child Care Provider Pilot and Home Support Worker Pilot are two caregiver pilots launched in June 2019. These pathways are designed for foreign nationals with work experience in NOC 4411 and NOC 4412. The main difference is that while the Home Child Care Provider Program focuses on caring for children under 18, the Home Support Worker Program supports the disabled and elderly. Foster parents and housekeepers are not eligible. This pilot program is designed to bring caregivers to Canada on temporary work permit with the ability to apply for permanent residence after gaining enough work experience. Family members are eligible to accompany caregivers and are eligible to apply for open work permit and/or study permits.

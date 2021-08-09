@@ -1,7 +1,8 @@
 ---
 title: 'Super Visa'
 date: '2020-01-04'
-about: 'This program allows multiple entries to parents and grandparents of Permanent Residents and Canadian citizens'
+about: 'Super Visa is a multi-entry visa for parents and grandparents that provides multiple entries for a
+period up to 10 years'
 ---
 
 This program is for parents and grandparents of Permanent Residents and Canadian citizens. This program allows multiple entries and is valid up to 10 years. The applicant is authorized to stay in Canada for up to two years at a time. Dependants are not eligible under this program.

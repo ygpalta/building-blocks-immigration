@@ -1,7 +1,9 @@
 ---
 title: 'Work Permit and LMIA'
 date: '2020-01-05'
-about: 'Work in Canada'
+about: 'A Work Permit is usually required by a foreign national to work in Canada. A Labour Market
+Impact Assessment (LMIA) is a document that an employer in Canada may need to get before
+hiring a foreign worker.'
 ---
 
 Every year thousands of people come to Canada to work. Usually, a work permit is required to work in Canada but in some cases, you can work without a work permit.

@@ -1,7 +1,8 @@
 ---
 title: 'Start-Up Visa'
 date: '2020-01-01'
-about: 'Innovative Visa for Start-ups and Entrepreneurs'
+about: 'This program is for immigrant entrepreneurs with the skills and potential to build an innovative
+business in Canada.'
 ---
 
 Canada Start-up Visa program is the first of its kind in the world, it connects innovative immigrant

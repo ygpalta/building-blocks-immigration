@@ -1,7 +1,7 @@
 ---
 title: 'Other Services'
-date: '2020-01-01'
-about: 'Other Services provided by us'
+date: '2019-12-12'
+about: 'All other services provided to help you achieve your dreams.'
 ---
 We also help our clients in the following matters:
 <ul style="list-style-type: disc; list-style-position: outside; margin-top:5px; margin-left:5px;">

@@ -147,7 +147,7 @@ const Paths = () => <section className="pb-20 bg-gray-300 -mt-24">
       </div>
 
       <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-        <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-red-700">
+        <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-gray-300">
           <img
             alt="..."
             src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
@@ -166,13 +166,13 @@ const Paths = () => <section className="pb-20 bg-gray-300 -mt-24">
             >
               <polygon
                 points="-30,95 583,95 583,65"
-                className="text-red-700 fill-current"
+                className="text-gray-300 fill-current"
               ></polygon>
             </svg>
-            <h4 className="text-xl font-bold text-white">
+            <h4 className="text-xl font-bold">
               Guidance and Planning
               </h4>
-            <p className="text-md font-light mt-2 text-white">
+            <p className="text-md font-light mt-2">
                We help you to achieve your goals settle for a wonderful life, as soon as possible and at reasonable cost.
               </p>
           </blockquote>

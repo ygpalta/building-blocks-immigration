@@ -1,7 +1,8 @@
 ---
 title: 'Study Permit and Post Graduate Work Permit'
 date: '2020-01-01'
-about: 'Study and work in Canada'
+about: 'A study permit is generally required by international students to study in Canada. Upon
+graduation, Post Graduate Work Permits are issued only once in a lifetime.'
 ---
 
 The number of international students coming to Canada keeps on increasing year after year. Canada is not just the home of some of the best academic institutions of the world but studying over here holds many advantages for the students.

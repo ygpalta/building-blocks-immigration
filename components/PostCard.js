@@ -5,8 +5,8 @@ import styles from '../styles/Home.module.css';
 
 export default function PostCard ({title, about, date, id}){
 return (
-    <div className="w-full md:w-4/12 lg:w-3/12 px-5">
-        <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg blue">
+    <div className="w-full md:w-4/12 lg:w-3/12 px-5 place-content-stretch">
+        <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-gray-300 self-stretch item-stretch place-content-stretch">
           <img
             alt="..."
             src={`/images/${id}.jpg`}
@@ -25,16 +25,16 @@ return (
             >
               <polygon
                 points="-30,95 583,95 583,65"
-                className="blue-text fill-current"
+                className="text-gray-300 fill-current"
               ></polygon>
             </svg>
-            <h4 className="text-xl font-bold text-white">
+            <h4 className="text-xl mb-2 font-semibold leading-normal">
               {title}
               </h4>
-            <p className="text-md font-light mt-2 text-white">
+            <p className="text-md font-light leading-relaxed mt-4 mb-4 text-gray-800">
             {about}
               </p>
-              <b className="text-white"><a href={`/visas/${id}`} >Know More.. </a> </b>
+              <b className=""><a href={`/visas/${id}`} >Know More.. </a> </b>
           </blockquote>
         </div>
       </div>

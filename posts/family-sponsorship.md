@@ -1,7 +1,8 @@
 ---
 title: 'Family Sponsorship'
 date: '2020-01-01'
-about: 'Innovative Visa for Start-ups and Entrepreneurs'
+about: 'Family sponsorship allows you to sponsor your spouse, children, parents, grand-parents, and
+other relatives.'
 ---
 
 Family unification is one of the three pillars of immigration in Canada. Canadian government offers

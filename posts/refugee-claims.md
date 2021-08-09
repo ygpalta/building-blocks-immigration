@@ -1,7 +1,8 @@
 ---
 title: 'Refugee Claims'
 date: '2020-01-03'
-about: 'Settle in Canada as a Refugee'
+about: 'Apply for a refugee claim in Canada if you fear persecution or are in danger if you return to your
+home country.'
 ---
 Refugees are generally defined as individuals who are outside of their home country and are unable to
 return because of well founded fear of persecution based on race, religion, political opinion, nationality

@@ -23,7 +23,7 @@ export default function Visalist({ visas }){
             ></polygon>
          </svg>
       </div>
-      <div className="flex flex-row flex-wrap flex-initial">
+      <div className="flex flex-row flex-wrap flex-initial item-stretch">
      
           {visas.map(({ id, about, date, title }) => (
               <PostCard

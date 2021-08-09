@@ -1,7 +1,8 @@
 ---
 title: 'Temporary Resident Permit'
 date: '2020-01-01'
-about: 'Innovative Visa for Start-ups and Entrepreneurs'
+about: 'A Temporary Resident Permit (TRP) is a document that authorizes a person who is inadmissible
+to enter or remain in Canada.'
 ---
 
 Temporary resident permit (TRP) is issued to foreign nationals who are considered inadmissible to enter Canada. TRP allows them to enter or to remain in Canada. PRP is issued if the applicant has compelling reasons to enter Canada and the need to enter Canada outweighs the risk posed to Canadian society.
