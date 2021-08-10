@@ -120,19 +120,19 @@ a {
 Light red : rgb(234,29,36)
 Dark Red: rgb(119,2,2)  */
 
-.blue {
+.red {
   background-color: #485774;
 }
 
-.red {
+.blue {
   background-color: #b44e4e;
 }
 
-.red-text {
+.blue-text {
   /* color: #c60023; */
   color: #b44e4e;
 }
-.blue-text {
+.red-text {
   /* color: #c60023; */
   color: #485774;
 }
@@ -142,11 +142,13 @@ Dark Red: rgb(119,2,2)  */
 #485774 */
 
 .sidebar {
-  background-color: #b44e4e;
+  background-color: #485774;
 }
 
 .sidebar:hover {
-  background-color: #485774;
+  background-color: #b44e4e;
 }
+
+
 
 
