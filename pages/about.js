@@ -26,11 +26,11 @@ export default function Page () {
 
 
 
-const About = () => <section className=" bg-gray-300 -mt-48">
+const About = () => <section className=" bg-gray-300 -mt-48 font-light leading-relaxed text-gray-800">
   <div className="container mx-auto px-4">
     <div className="flex flex-wrap">
 
-      <div className="w-full lg:px-24 ">
+      <div className="w-full lg:px-4 ">
         <div className="relative flex flex-col min-w-0 break-words text-justify bg-white w-full mb-8 shadow-lg rounded-lg">
           <div className="px-10 py-10 flex-auto">
 
@@ -104,11 +104,11 @@ const About = () => <section className=" bg-gray-300 -mt-48">
     </div>
     </section>
 
-const Director = () => <section className="pb-20 bg-gray-300">
+const Director = () => <section className="pb-20 bg-gray-300 font-light leading-relaxed text-gray-800">
 <div className="container mx-auto px-4">
   <div className="flex flex-wrap">
 
-    <div className="w-full lg:px-24 ">
+    <div className="w-full lg:px-4 ">
       <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
         <div className="px-4 lg:px-10 py-10 flex-auto">
        
@@ -120,6 +120,7 @@ const Director = () => <section className="pb-20 bg-gray-300">
               
               <div className="lg:w-1/3">
                 <img className="p-2 rounded-full border-t-8 border-b-8 border-gray-300" src="images/director.jpeg" alt="Jyoti Palta, Director, Building Blocks Immigration" />
+                <a href="/">Verify Membership</a>
               </div>
 
               <div className="lg:w-2/3 text-lg mt-8 lg:mt-1 p-4 bg-gray-300 rounded-xl border-8">

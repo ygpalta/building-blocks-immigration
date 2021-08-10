@@ -1,7 +1,7 @@
 import React, { ReactElement, useState } from 'react'
 import  PostCard from '../components/PostCard.js';
 
-export default function Visalist({ visas }){
+export default function VisaCards({ visas }){
     return (
     <section className="relative py-20">
       <div
@@ -39,4 +39,25 @@ export default function Visalist({ visas }){
            
     </section>
     )
-        }
+ }
+
+ export function VisaList({ visas }){
+   return (
+   <section className="relative py-4 mr-4 ">
+      <ul style={{
+         listStyleType: "disc",
+         listStylePosition: "inside",
+         marginTop: "5px", 
+         marginLeft: "5px"}}>
+      {visas.map(({ id, title }) => (
+         <div className="text-left text-sm font-semibold text-gray-500 py-2 px-3 hover:bg-gray-200 shadow-md border-l-2 mt-4 p-3 rounded-xl border-gray-300">
+              <li> <a href={`/visas/${id}`} > {title} </a> </li>
+         </div>
+          ))
+         }
+         </ul>
+
+
+   </section>
+       )
+}

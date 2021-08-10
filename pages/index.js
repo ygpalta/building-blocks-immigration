@@ -2,8 +2,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import  Navbar from '../components/Navbar.tsx';
 import  Footer from '../components/Footer.tsx';
-import  PostCard from '../components/PostCard.js';
-import  Visalist from '../components/visalist';
+// import  PostCard from '../components/PostCard.js';
+import  VisaCards from '../components/visalist';
 import { getSortedPostsData } from '../lib/posts';
 
 export async function getStaticProps() {
@@ -50,23 +50,7 @@ export default function Home({ allPostsData }) {
             </svg>
          </div>
          <Paths />
-         {/* <Posts /> */}
-         <Visalist visas={allPostsData}/>
-         {/* <section className="px1" >
-        <h2 className="text-xl">Blog</h2>
-        <ul className="text-lg">
-          {allPostsData.map(({ id, date, title }) => (
-            <li key={id}>
-              {title}
-              <br />
-              {id}
-              <br />
-              {date}
-            </li>
-          ))}
-          a{allPostsData}a
-        </ul>
-      </section> */}
+         <VisaCards visas={allPostsData}/>
          <Footer />
    </div>
 
@@ -182,33 +166,3 @@ const Paths = () => <section className="pb-20 bg-gray-300 -mt-24">
     </div>
   </div>
 </section>
-
-const Posts = () => <section className="relative py-20">
-      <div
-      className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-      style={{ height: "80px" }}
-      >
-         <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-         >
-            <polygon
-               className="text-white fill-current"
-               points="2560 0 2560 100 0 100"
-            ></polygon>
-         </svg>
-      </div>
-      <div className="flex flex-row flex-wrap flex-initial">
-         <PostCard />
-         
-         
-      </div>
-
-           
-</section>
-

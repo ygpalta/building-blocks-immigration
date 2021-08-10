@@ -19,9 +19,11 @@ programs. Express entry profile is valid for 12 months.
 <li> Invitation to apply (ITA) for PR issued</li>
 </ul>
 <div style="margin:8px;"></div>
+
 **Express Entry Categories:**
 
-**Federal Skilled Worker: **
+**Federal Skilled Worker:**
+
 This program is for foreign skilled workers with no Canadian experience who
 want to immigrate to Canada permanently.
 
