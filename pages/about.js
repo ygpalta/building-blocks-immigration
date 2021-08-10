@@ -130,7 +130,9 @@ const Director = () => <section className="pb-20 bg-gray-300 font-light leading-
                   </p><br/><p>As a landed immigrant herself, Jyoti knows how difficult it can be to start a new life in a new country with new hopes and dreams. She knows it is not easy to trust someone when your ambitions, dreams and goals are at stake. The Immigration process can be complex and confusing and sometimes it feels like there is no light at the end of the tunnel. It is her experience with the process that led her to pursue a career in immigration, she aims to make the process simpler and easy to understand for people like her who dream of a new life in Canada.
 
                   </p><br/><p>Under her guidance we at Building Blocks Immigration, make sure you get personalized services, we listen to you and offer you advice based on your credentials and dreams. We pick the right building blocks for your strong foundation.
-                  </p>
+                  </p><br/> <p>
+                    <span className="font-semibold">Verify Membership:</span><a href="https://iccrc-crcic.ca/find-a-professional/">Find an Immigration Professional – ICCRC-CRCIC</a>
+                    </p>
               </div>
             </div>
 

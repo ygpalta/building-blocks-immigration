@@ -23,9 +23,9 @@ function Footer(): ReactElement {
             ></polygon>
           </svg>
         </div>
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap">
-            <div className="w-full lg:w-6/12 px-4">
+        <div className="container mx-auto">
+          <div className="w-full flex flex-wrap">
+            <div className="w-full md:w-6/12 px-4">
               
               <h4 className="text-3xl font-semibold text-white mt-2 ">
                 Let&apos;s keep in touch!
@@ -53,28 +53,28 @@ function Footer(): ReactElement {
                 </h5>
               </div>
 
-              <div className="mt-6">
+              <div className="mt-6 px-4">
                 
-                <button
-                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                ><a href="https://www.facebook.com/buildingblocksimmigration/">
-                  <i className="flex fab fa-facebook-square"></i>
+                <a href="https://www.facebook.com/buildingblocksimmigration/">
+                  <i className="flex fab fa-facebook-square text-3xl text-blue-800 bg-white px-2 py-2 rounded-full mr-2"></i>
                  </a>
-                </button>
-                <button
-                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                ><a href="https://www.instagram.com/building_blocks_immigration/">
-                    <i className="flex fab fa-instagram"></i>
+                
+
+               <a href="https://www.instagram.com/building_blocks_immigration/">
+                    <i className="flex fab fa-instagram text-3xl text-pink-700 bg-white px-2 py-2 rounded-full mr-2"></i>
                   </a>
-                </button>
+
+                
+
+                <a href="https://wa.me/14166199215">
+                  <i className="flex fab fa-whatsapp-square text-3xl text-green-700 bg-white px-2 py-2 rounded-full"></i>
+                 </a>
                 
               </div>
             </div>
-            <div className="w-full lg:w-6/12 px-4 mt-4">
+            <div className="w-full md:w-6/12 px-4 mt-4">
               <div className="flex flex-wrap items-top mb-6">
-                <div className="w-full lg:w-4/12 px-4 ml-auto">
+                <div className="w-full md:w-1/2 px-4">
                   <span className="block uppercase text-white text-sm font-semibold mb-2">
                     Useful Links
                   </span>
@@ -107,14 +107,14 @@ function Footer(): ReactElement {
 
                   </ul>
                 </div>
-                <div className="w-full lg:w-4/12 px-4">
+                <div className="w-full md:w-1/2 px-4">
                   <span className="block uppercase text-white text-sm font-semibold mb-2">
                     Services
                   </span>
                   <ul className="list-unstyled">
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/migrate-canada">Migrate
+                        href="/visas/express-entry">Migrate
                     </a>
                     </li>
                     <li>
@@ -141,12 +141,16 @@ function Footer(): ReactElement {
 
                 </div>
               </div>
+              
+              <img src="/images/capic.png" alt="Jyoti" height="200" width="200" />
+              <div className="font-semibold text-white text-md px-4 mt-2"><a href="https://iccrc-crcic.ca/find-a-professional/">Verify Membership (R706919)</a></div>
             </div>
           </div>
+          <p className="mt-6 text-white text-sm text-gray-200 px-4 text-justify">Legal Disclaimer: Information on this website does not constitute legal advice. To get legal advice, please <span className="font-bold" >Book a consultation </span> to speak with a Regulated Canadian Immigration Consultant</p>
           <hr className="my-6 border-gray-400" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-8/12 px-4 mx-auto text-center">
-              <div className="text-sm text-white font-semibold py-1">
+              <div className="text-sm text-white font-semibold">
                 Copyright © {new Date().getFullYear()}{" "}Building Blocks Immigration- All Rights Reserved || Site Developed by{" "}
                 <a
                   href="https://www.linkedin.com/in/ygpalta/"
