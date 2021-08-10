@@ -3,7 +3,7 @@ import React, { ReactElement } from 'react'
 
 function Footer(): ReactElement {
     return (
-        <footer className="relative bg-red-700 pt-8 pb-6">
+        <footer className="relative red pt-8 pb-6">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style={{ height: "80px" }}
@@ -18,7 +18,7 @@ function Footer(): ReactElement {
             y="0"
           >
             <polygon
-              className="text-red-700 fill-current"
+              className="red-text fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>

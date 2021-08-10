@@ -9,7 +9,7 @@ export default function Navbar () {
     };
     return (
       <div>
-          <nav className='static flex items-center flex-wrap theme p shadow-lg '>
+          <nav className='static flex items-center flex-wrap red p shadow-lg '>
 
           <a href='/' className='inline-flex items-center p mr-4 '>
           <img 

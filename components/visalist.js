@@ -1,5 +1,6 @@
 import React, { ReactElement, useState } from 'react'
 import  PostCard from '../components/PostCard.js';
+import styles from '../styles/Home.module.css';
 
 export default function VisaCards({ visas }){
     return (
@@ -50,7 +51,7 @@ export default function VisaCards({ visas }){
          marginTop: "5px", 
          marginLeft: "5px"}}>
       {visas.map(({ id, title }) => (
-         <div className="text-left text-sm font-semibold text-gray-500 py-2 px-3 hover:bg-gray-200 shadow-md border-l-2 mt-4 p-3 rounded-xl border-gray-300">
+         <div className="text-left sidebar text-sm font-semibold py-2 px-3 text-white shadow-md border-l-2 mt-4 p-3 rounded-xl border-gray-300">
               <li> <a href={`/visas/${id}`} > {title} </a> </li>
          </div>
           ))
