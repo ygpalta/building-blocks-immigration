@@ -60,9 +60,9 @@ a {
 }
 .hero-image {
   /* margin-top: 0.5em; */
-  background-image: url("/images/canada.jpeg");
+  background-image: url("/images/canada.jpg");
   height: 400px;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -72,7 +72,7 @@ a {
   /* margin-top: 0.5em; */
   background-image: url("/images/contact.jpg");
   height: 400px;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -82,8 +82,8 @@ a {
 .Overlay {
   width: 100vw;
   height: 100%;
-  backdrop-filter: blur(10px);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.158));
+  backdrop-filter: blur(5px);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
 }
 
 .hero-text {
@@ -120,19 +120,19 @@ a {
 Light red : rgb(234,29,36)
 Dark Red: rgb(119,2,2)  */
 
-.red {
+.blue {
   background-color: #485774;
 }
 
-.blue {
+.red {
   background-color: #b44e4e;
 }
 
-.blue-text {
+.red-text {
   /* color: #c60023; */
   color: #b44e4e;
 }
-.red-text {
+.blue-text {
   /* color: #c60023; */
   color: #485774;
 }
@@ -142,11 +142,11 @@ Dark Red: rgb(119,2,2)  */
 #485774 */
 
 .sidebar {
-  background-color: #485774;
+  background-color: #b44e4e;
 }
 
 .sidebar:hover {
-  background-color: #b44e4e;
+  background-color: #485774;
 }
 
 

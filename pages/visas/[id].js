@@ -68,7 +68,7 @@ export default function Page({ postData, allPostsData }) {
                         {postData.about}
                         </p>
                         <article  className="text-xl text-justify text-md list-inside">
-                          <div className="text-lg font-light leading-relaxed text-gray-800 mt-4 mb-4" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                          <div className="text-lg leading-relaxed text-gray-800 mt-4 mb-4" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                         </article>
                         
                     </div>

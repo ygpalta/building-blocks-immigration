@@ -23,7 +23,7 @@ export default function Navbar () {
              </span>
           </a>
 
-        <button className=' inline-flex p hover:bg-blue-900 rounded lg:hidden text-white ml-auto hover:text-white outline-none' onClick={handleClick}>
+        <button className=' inline-flex p hover:bg-red-900 rounded lg:hidden text-white ml-auto hover:text-white outline-none' onClick={handleClick}>
           <svg
             className='w-6 h-6'
             fill='none'
@@ -46,46 +46,46 @@ export default function Navbar () {
             <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
 
                     
-                <a href='/' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-900 hover:text-white '>
+                <a href='/' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white '>
                     Home
                 </a>
 
 
 
 
-                <a href='/about' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-900 hover:text-white'>
+                <a href='/about' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     About Us
                 </a>
 
 
 
 
-                <a href='/visas/study-permit-post-graduate-work-permit' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-900 hover:text-white'>
+                <a href='/visas/study-permit-post-graduate-work-permit' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Study
                 </a>
 
 
 
 
-                <a href='/visas/work-permit-lmia' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-900 hover:text-white'>
+                <a href='/visas/work-permit-lmia' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Work
                 </a>
 
 
 
-                <a href='/visas/visitor-visa' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-900 hover:text-white'>
+                <a href='/visas/visitor-visa' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Visit
                 </a>
 
 
 
-                <a href='https://casecloud.ca/form/formshare?formId=6c9bda54-6459-4e25-b321-26368a535c0f&siteId=CCP20211497' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-900 hover:text-white'>
+                <a href='https://casecloud.ca/form/formshare?formId=6c9bda54-6459-4e25-b321-26368a535c0f&siteId=CCP20211497' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Assessment
                 </a>
 
 
 
-                <a href='/contact' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-900 hover:text-white'>
+                <a href='/contact' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Contact Us
                 </a>
 
