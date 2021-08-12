@@ -119,7 +119,7 @@ const Director = () => <section className="pb-20 bg-gray-300 font-light leading-
             <div className="flex flex-row flex-wrap flex-initial item-center text-lg mt-2 mb-5">
               
               <div className="lg:w-1/3">
-                <img className="p-2 rounded-full border-t-8 border-b-8 border-gray-300" src="images/director.jpeg" alt="Jyoti Palta, Director, Building Blocks Immigration" />
+                <img className="p-2 rounded-full border-t-8 border-b-8 border-gray-300" src="images/director_opt.jpg" alt="Jyoti Palta, Director, Building Blocks Immigration" />
                 <a href="/">Verify Membership</a>
               </div>
 

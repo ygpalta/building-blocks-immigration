@@ -9,7 +9,7 @@ return (
         <div className="relative flex flex-col min-w-0 break-words h-full  w-full shadow-lg rounded-lg blue self-stretch item-stretch place-content-stretch">
           <img
             alt="..."
-            src={`/images/${id}.jpg`}
+            src={`/images/${id}_opt.jpg`}
             className="w-full align-middle rounded-t-lg"
           />
           <blockquote className="relative p-6">
