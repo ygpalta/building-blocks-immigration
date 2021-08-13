@@ -33,7 +33,7 @@ export default function Contact () {
                             <h6 className="text-2xl item-start m-3 font-semibold item-end">
                             Book 30-Min Consultation (Free)
                             </h6>
-                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded"><a href="https://probooking.io/meet/buildingblocks/30+Minutes+Discovery+Session"> Book Now</a></button>
+                            <button className="red hover:bg-red-900 text-white border text-xl font-semibold p-2 rounded"><a href="https://probooking.io/meet/buildingblocks/30+Minutes+Initial+Consultation"> Book Now</a></button>
                         </div>
 
                         <div className="relative flex justify-between content-around item-baseline py-4 px-4 mb-8 shadow-2xl bg-white rounded-lg">

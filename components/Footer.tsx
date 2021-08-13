@@ -119,12 +119,12 @@ function Footer(): ReactElement {
                     </li>
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/visas/study-permit-post-graduate-work-permit">Study
+                        href="/study-in-canada">Study
                       </a>
                     </li>
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/visas/work-permit-lmia">Work
+                        href="/work-in-canada">Work
                       </a>
                     </li>
                     <li>
@@ -134,7 +134,7 @@ function Footer(): ReactElement {
                     </li>
                     <li>
                       <a className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="/visas/visitor-visa">Visit
+                        href="/visit-canada">Visit
                       </a>
                     </li>
                   </ul>

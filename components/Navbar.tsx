@@ -60,20 +60,20 @@ export default function Navbar () {
 
 
 
-                <a href='/visas/study-permit-post-graduate-work-permit' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
+                <a href='/study-in-canada' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Study
                 </a>
 
 
 
 
-                <a href='/visas/work-permit-lmia' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
+                <a href='/work-in-canada' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Work
                 </a>
 
 
 
-                <a href='/visas/visitor-visa' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
+                <a href='/visit-canada' className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-red-900 hover:text-white'>
                     Visit
                 </a>
 
