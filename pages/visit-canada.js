@@ -4,14 +4,6 @@ import { getSortedPostsData } from '../lib/posts';
 import Head from 'next/head'
 import  {VisaList} from '../components/visalist';
 
-// export async function getlist() {
-//   const allPostsData = getSortedPostsData()
-//   return {
-//     props: {
-//       allPostsData
-//     }
-//   }
-// }
 
 export async function getStaticProps({ params }) {
   const allPostsData = getSortedPostsData()  
@@ -21,14 +13,6 @@ export async function getStaticProps({ params }) {
       },
     }
   }
-
-// export async function getStaticPaths() {
-//     const paths = getAllPostIds()
-//     return {
-//       paths,
-//       fallback: false
-//     }
-//   }
 
   
 export default function Page({allPostsData }) {

@@ -4,14 +4,7 @@ import { getSortedPostsData } from '../lib/posts';
 import Head from 'next/head'
 import  {VisaList} from '../components/visalist';
 
-// export async function getlist() {
-//   const allPostsData = getSortedPostsData()
-//   return {
-//     props: {
-//       allPostsData
-//     }
-//   }
-// }
+
 
 export async function getStaticProps({ params }) {
   const allPostsData = getSortedPostsData()  
@@ -21,14 +14,6 @@ export async function getStaticProps({ params }) {
       },
     }
   }
-
-// export async function getStaticPaths() {
-//     const paths = getAllPostIds()
-//     return {
-//       paths,
-//       fallback: false
-//     }
-//   }
 
   
 export default function Page({allPostsData }) {
@@ -73,12 +58,7 @@ export default function Page({allPostsData }) {
                       </div>
                     </div> 
                 </div>
-                {/* <div className="w-1/4 px-8 text-center item-center align-center">
-                  <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                    <div className="px-10 py-8 flex-auto">
-                      <VisaList visas={allPostsData}/>
-                      </div></div> */}
-                {/* </div> */}
+                
             </div>
             
             
