@@ -26,6 +26,7 @@ export default function Contact () {
                 <div className="relative grid grid-cols-4  flex-initial min-w-0 break-words bg-gray-200 w-full mb-8 shadow-lg rounded-lg">
                     <div className=" col-span-4 md:col-span-2 m-2 py-5 md:ml-10 rounded-lg">
                         <Form />
+                        
                     </div>
 
                     <div className=" col-span-4 md:col-span-2 py-8 m-2 px-6 md:mt-24 flex flex-col flex-wrap justify-start">                    
@@ -61,46 +62,46 @@ export default function Contact () {
 
 
 const Form = () => <section>
-    <form class=" shadow-2xl rounded w-full  px-8 pt-6 pb-8 mb-4">
+    <form action="https://getform.io/f/e89cd11e-dbf1-4cf5-95c1-5a7749473836" method="POST" class=" shadow-2xl rounded w-full  px-8 pt-6 pb-8 mb-4">
     <h1 className="text-4xl font-semibold mb-4">Get in touch</h1>
     <div class="mb-4">
-      <label class="block text-left text-sm font-bold mb-2" for="name">
+      <label class="block text-left text-sm font-bold mb-2" >
         Name
       </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name" />
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Name" type="text" name="Name" placeholder="Your Name" />
     </div>
 
     <div class="mb-4">
-      <label class="block text-left text-sm font-bold mb-2" for="phone">
+      <label class="block text-left text-sm font-bold mb-2" for="Phone">
         Phone
       </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="phone" type="text" placeholder="Phone" />
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Phone" type="text" name="Phone" placeholder="Phone" />
     </div>
 
     <div class="mb-4">
-      <label class="block text-left text-sm font-bold mb-2" for="email">
+      <label class="block text-left text-sm font-bold mb-2" for="Email">
         E-mail
       </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="email" />
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Email" type="text" name="Email" placeholder="email" />
     </div>
 
     <div class="mb-4">
-      <label class="block text-left text-sm font-bold mb-2" for="subject">
+      <label class="block text-left text-sm font-bold mb-2" for="Subject">
         Subject
       </label>
-      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="subject" type="text" placeholder="Subject" />
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Subject" type="text" name="Subject" placeholder="Subject" />
     </div>
 
     <div class="mb-4">
-      <label class="block text-left text-sm font-bold mb-2" for="message">
+      <label class="block text-left text-sm font-bold mb-2" for="Message">
         Message
       </label>
-      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" type="text" placeholder="Your Message Here" />
+      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Message" type="text" name="Message" placeholder="Your Message Here" />
     </div>
 
 
     <div class="flex items-center justify-between">
-      <button class="red hover:bg-red-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+      <button class="red hover:bg-red-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
         Submit
       </button>
     </div>
