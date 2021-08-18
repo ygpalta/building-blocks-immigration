@@ -27,12 +27,12 @@ export default function Page () {
 
 
 const About = () => <section className=" bg-gray-300 -mt-48 font-light leading-relaxed text-gray-800">
-  <div className="container mx-auto px-4">
+  <div className="container mx-auto px-2 lg:px-4">
     <div className="flex flex-wrap">
 
       <div className="w-full lg:px-4 ">
-        <div className="relative flex flex-col min-w-0 break-words text-justify bg-white w-full mb-8 shadow-lg rounded-lg">
-          <div className="px-10 py-10 flex-auto">
+        <div className="relative flex flex-col min-w-0 break-words  bg-white w-full mb-8 shadow-lg rounded-lg">
+          <div className="px-6 lg:px-10 py-10 flex-auto">
 
             <h2 className="text-4xl text-center font-semibold">
               Who We Are
@@ -68,7 +68,7 @@ const About = () => <section className=" bg-gray-300 -mt-48 font-light leading-r
 
             <div className="flex flex-row flex-wrap flex-initial item-center text-lg mt-2 mb-5">
               
-              <div className="md:w-1/3 p-2">
+              <div className="lg:w-1/3 p-2">
                 <div className="bg-gray-200 p-6 shadow-2xl h-full rounded-xl" >
                   <h2 className="text-xl font-bold">Excellence:  </h2>
                   <p className="p-1"> We strive to provide best customer service and care through continuous improvement. We work hard to help our clients achieve their goals. We keep our clients informed about the changes in policies and help them make informed decisions.    
@@ -76,7 +76,7 @@ const About = () => <section className=" bg-gray-300 -mt-48 font-light leading-r
                 </div>
               </div>
 
-              <div className="md:w-1/3 p-2">
+              <div className="lg:w-1/3 p-2">
                 <div className="bg-gray-200 p-6 shadow-2xl h-full rounded-xl" >
                   <h2 className="text-xl font-bold">Integrity:  </h2>
                   <p className="p-1"> We strive for highest level of integrity. Our processes and procedures are simple, efficient, and transparent. We inform our clients of their rights and options, letting them know the programs they qualify for and their chances at success    
@@ -84,7 +84,7 @@ const About = () => <section className=" bg-gray-300 -mt-48 font-light leading-r
                 </div>
               </div>
 
-              <div className="md:w-1/3 p-2">
+              <div className="lg:w-1/3 p-2">
                 <div className="bg-gray-200 p-6 shadow-2xl h-full rounded-xl" >
                   <h2 className="text-xl font-bold">Respect:  </h2>
                   <p className="p-1"> We treat all our clients with dignity and respect by offering personalized services and one-on-one guidance to every case. We always maintain trust and confidentiality.   
@@ -120,7 +120,6 @@ const Director = () => <section className="pb-20 bg-gray-300 font-light leading-
               
               <div className="lg:w-1/3">
                 <img className="p-2 rounded-full border-t-8 border-b-8 border-gray-300" src="images/director_opt.jpg" alt="Jyoti Palta, Director, Building Blocks Immigration" />
-                <a href="/">Verify Membership</a>
               </div>
 
               <div className="lg:w-2/3 text-lg mt-8 lg:mt-1 p-4 bg-gray-300 rounded-xl border-8">

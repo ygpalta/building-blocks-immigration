@@ -25,30 +25,30 @@ function Footer(): ReactElement {
         </div>
         <div className="container mx-auto">
           <div className="w-full flex flex-wrap">
-            <div className="w-full md:w-6/12 px-4">
+            <div className="w-full md:w-6/12 px-2 lg:px-4">
               
-              <h4 className="text-3xl font-semibold text-white mt-2 ">
+              <h4 className="text-2xl lg:text-3xl font-semibold text-white mt-2 ">
                 Let&apos;s keep in touch!
               </h4>
-              <div className="text-white px-4 py-2">
-                <h5 className="fas fa-map-marker-alt text-lg mt-0 text-white">
+              <div className="text-white lg:px-4 py-2">
+                <h5 className="fas fa-map-marker-alt text-md md:text-lg mt-0 text-white">
                 &nbsp;&nbsp;405 The West Mall
                 </h5>
-                <h5 className="text-lg mt-0 font-semibold">
+                <h5 className="text-md md:text-lg mt-0 font-semibold">
                 &emsp;&nbsp;Unit 910
                 </h5>
-                <h5 className="text-lg mt-0 font-semibold">
+                <h5 className="text-md md:text-lg mt-0 font-semibold">
                 &emsp;&nbsp;Toronto, ON
                 </h5>
-                <h5 className="text-lg mt-0 mb-1 font-semibold">
+                <h5 className="text-md md:text-lg mt-0 mb-1 font-semibold">
                 &emsp;&nbsp;Canada
                 </h5>
 
-                <h5 className="fas fa-envelope text-lg mt-0">
+                <h5 className="fas fa-envelope text-md md:text-lg mt-0">
                 &nbsp;&nbsp;buildingblocksimmigration@gmail.com
                 </h5><br/>
 
-                <h5 className="fas fa-phone text-lg mt-0">
+                <h5 className="fas fa-phone text-md md:text-lg mt-0">
                 &nbsp;&nbsp;+1 4166199215
                 </h5>
               </div>
