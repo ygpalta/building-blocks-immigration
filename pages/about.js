@@ -8,6 +8,12 @@ export default function Page () {
         <div>
             <Head>
             <title>About Us - Building Blocks Immigration</title>
+            <meta name="description" content="Official Website of Building Blocks Immigration. Best Immigration Consultants for Canadian Visa and PR. Migrate to Canada"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Building Blocks Immigration - Best Immigration Consultants for Canadian Visa & PR"/>
+            <meta property="og:url" content="http://www.buildingblocksimmigration.com/about" />
+            <meta property="og:description" content="Official Website of Building Blocks Immigration. Best Immigration Consultants for Canadian Visa and PR. Migrate to Canada"/>    
+        
             </Head>
             <Navbar transparent={false} />
             <div className="hero-image">

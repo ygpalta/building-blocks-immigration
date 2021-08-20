@@ -40,6 +40,12 @@ export default function Page({ postData, allPostsData }) {
         <div>
         <Head>
         <title>{postData.title}</title>
+        <meta name="description" content="Official Website of Building Blocks Immigration. Best Immigration Consultants for Canadian Visa and PR. Migrate to Canada"/>
+        <meta name="keywords" content={postData.title}/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Building Blocks Immigration - Best Immigration Consultants for Canadian Visa & PR"/>
+        <meta property="og:url" content="http://www.buildingblocksimmigration.com" />
+        <meta property="og:description" content="Official Website of Building Blocks Immigration. Best Immigration Consultants for Canadian Visa and PR. Migrate to Canada"/>    
         </Head>
             <Navbar transparent={false} />
             <div style={{ 

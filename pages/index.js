@@ -20,7 +20,14 @@ export default function Home({ allPostsData }) {
    <div>
       <Head>
         <title>Building Blocks Immigration - Best Immigration Consultants for Canadian Visa & PR</title>
-      </Head>
+        <meta name="description" content="Official Website of Building Blocks Immigration. Best Immigration Consultants for Canadian Visa and PR. Migrate to Canada"/>
+        <meta name="keywords" content="Building Blocks Immigration, Immigration, Visa, Canada"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Building Blocks Immigration - Best Immigration Consultants for Canadian Visa & PR"/>
+        <meta property="og:url" content="http://www.buildingblocksimmigration.com" />
+        <meta property="og:description" content="Official Website of Building Blocks Immigration. Best Immigration Consultants for Canadian Visa and PR. Migrate to Canada"/>    
+        
+        </Head>
       <Navbar transparent={false} />
          <div className="hero-image">
             <div className="hero-text">
